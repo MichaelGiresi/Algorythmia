@@ -1,0 +1,129 @@
+.hero {
+    max-width: 1600px;
+    // background-color: green;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #c3c3c3;
+    font-size: 100px;
+}
+
+.phrase {
+    color: red;
+    font-size: 30px;
+    
+}
+
+.featured-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    background-color: white;
+    height: 515px;
+    width: 515px;
+    border-radius: 12px;
+    color: black;
+}
+
+.container1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: blue;
+    border-radius: 12px;
+    height: 90%;
+}
+
+.container1-product-price-container {
+    // background-color: orange;
+    height: 10%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.container1-product-title {
+    margin-left: 3%;
+}
+
+.container1-price {
+    margin-right: 3%;
+}
+
+
+.container2 {
+    background-color: white;
+    height: 515px;
+    width: 515px;
+    border-radius: 12px;
+    color: black;
+}
+
+.container2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: blue;
+    border-radius: 12px;
+    height: 90%;
+}
+
+.container2-product-price-container {
+    // background-color: orange;
+    height: 10%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.container2-product-title {
+    margin-left: 3%;
+}
+
+.container2-price {
+    margin-right: 3%;
+}
+
+.info {
+    // background-color: white;
+    height: 515px;
+    width: 515px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.info p {
+    line-height: 1.7;
+}
+
+.iframe {
+    width: 100%;
+    height: 800px;
+    border-radius: 12px;
+}

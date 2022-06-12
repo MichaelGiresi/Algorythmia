@@ -1,0 +1,41 @@
+.footer {
+    // background-color: green;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    // border-bottom: 1px solid white
+    
+}
+
+.footer-shop-all {
+   font-size: 145px;
+   position: absolute;
+   margin-top: 200px;
+}
+
+.footer-oval {
+    border: 1px solid white;
+    width: 500px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 210px;
+
+}
+
+.footer-separator {
+    height: 1px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    margin-bottom: 40px;
+
+}
+
+
