@@ -50,6 +50,20 @@
   }
 }
 
+.shopall {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.about {
+  cursor: pointer;
+}
+
+.cart {
+  cursor: pointer;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +73,9 @@
           align-items: center;
   margin-left: 3%;
   font-size: 25px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 .divider {
