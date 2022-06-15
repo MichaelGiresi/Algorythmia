@@ -1,0 +1,31 @@
+.product {
+    max-width: 1600px;
+    margin: 0 auto 0 auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-image-container {
+    width: 700px;
+    height: 700px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-hero-info {
+    color: #c3c3c3;
+}
+
+.product-hero-info {
+    width: 50%;
+}

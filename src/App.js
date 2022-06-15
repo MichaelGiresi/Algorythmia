@@ -9,6 +9,7 @@ import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import ShopAll from "./ShopAll/components/ShopAll";
 import Error from "./Error";
 import About from "./About";
+import Product from '../src/Product/components/Product'
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeOutput/>}/>
         <Route path="products" element={<ShopAll/>}  />
+        <Route path="productpage" element={<Product/>} />
         <Route path="*" element = {<Error/>}/>
       </Routes>
       <div className="footer-container">

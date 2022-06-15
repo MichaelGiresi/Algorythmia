@@ -67,7 +67,58 @@
     height: 350px;
     background-color: white;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
 }
+
+.sa-imagecontainer-slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-slide2-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-slide2-title {
+    margin-left: 3%;
+}
+
+.sa-slide2-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer-images-rightslides-slide1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92.5%;
+}
+
+.sa-slide1-rightslides-info {
+    border-top: 1px solid black;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-slide1-rightslides-title {
+    margin-left: 3%;
+}
+
+.sa-slide1-rightslides-price {
+    margin-right: 3%;
+}
+
 
 .sa-slide1-info {
     border-top: 1px black solid;
@@ -124,6 +175,9 @@ margin-right: 6px;
         width: 350px;
         height: 350px;
         border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
         }
 
         .sa-images-innercontainer2-row2 {
@@ -150,3 +204,172 @@ margin-right: 6px;
                 height: 350px;
                 border-radius: 12px;
                 }
+
+
+.sa-imagecontainer2-row1-slide1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row1-slide1-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row1-slide1-title {
+    margin-left: 3%;
+}
+
+.sa-row1-slide1-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer2-row1-slide1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row1-slide1-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row1-slide1-title {
+    margin-left: 3%;
+}
+
+.sa-row1-slide1-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer2-row1-slide2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row1-slide2-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row1-slide2-title {
+    margin-left: 3%;
+}
+
+.sa-row1-slide2-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer2-row2-slide1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row2-slide1-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row2-slide1-title {
+    margin-left: 3%;
+}
+
+.sa-row2-slide1-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer2-row2-slide2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row2-slide2-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row2-slide2-title {
+    margin-left: 3%;
+}
+
+.sa-row2-slide2-price {
+    margin-right: 3%;
+}
+
+.sa-imagecontainer2-row2-slide3-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row2-slide3-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row2-slide3-title {
+    margin-left: 3%;
+}
+
+.sa-row2-slide3-price {
+    margin-right: 3%;
+}
+
+
+
+
+
+.sa-imagecontainer2-row1-slide3-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+}
+
+.sa-row1-slide3-info {
+    border-top: 1px solid black;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sa-row1-slide3-title {
+    margin-left: 3%;
+}
+
+.sa-row1-slide3-price {
+    margin-right: 3%;
+}
+
+
+
