@@ -5,10 +5,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .product-hero-container {
@@ -19,11 +19,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 220px;
 }
 
 .product-image-container {
-  width: 700px;
-  height: 700px;
+  width: 800px;
+  height: 800px;
   background-color: white;
   border-radius: 12px;
   display: -webkit-box;
@@ -39,9 +40,98 @@
 
 .product-hero-info {
   color: #c3c3c3;
+  width: 50%;
+  margin-left: 3%;
 }
 
-.product-hero-info {
-  width: 50%;
+.product-hero-price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-hero-price-container h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.product-hero-size-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-size-selector-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 39px;
+  width: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-hero-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-hero-info-container p {
+  margin-left: 36px;
+}
+
+.product-otherproducts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #c3c3c3;
+  margin-bottom: 220px;
+}
+
+.product-otherproducts-slide1-container {
+  width: 390px;
+  height: 390px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.product-otherproducts-imagecontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1220px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-otherproducts-info {
+  width: 390px;
+  margin-right: 40px;
+}
+
+.product-otherproduct1-image {
+  height: 80%;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.product-otherproduct1-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 96%;
+  margin: 0 auto 0 auto;
+  color: black;
 }
 /*# sourceMappingURL=product.css.map */
