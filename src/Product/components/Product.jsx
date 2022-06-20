@@ -34,7 +34,7 @@ const Product = () => {
         </div>
         <div className='product-otherproducts-container'>
             <div className='product-otherproducts-info'>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                <p>At vers et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
             </div>
             <div className='product-otherproducts-imagecontainer'>
                 <div className='product-otherproducts-slide1-container'>
