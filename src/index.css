@@ -16,3 +16,68 @@ code {
     monospace;
 }
 
+
+
+.about-container {
+  display: none; 
+  flex-direction:column;
+  align-items: center;
+  color: white; 
+  position: absolute;
+  background-color: black; 
+  width: 100%; 
+  opacity: 0.8; 
+  height: 100vh;
+  
+  
+}
+
+.about-active {
+  display: flex;
+  animation: fadeIn 1s;
+  /* opacity: 1; */
+  /* opacity: 0.8; */
+  /* transition: opacity 2s; */
+  /* animation: fadeIn 2s; */
+  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.8;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.about-info-container {
+  width: 70%;
+  margin-top: 100px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-info-container h4 {
+  margin-top: 0;
+
+}
+
+.about-info-container h3 {
+  margin-bottom: 0;
+
+}
