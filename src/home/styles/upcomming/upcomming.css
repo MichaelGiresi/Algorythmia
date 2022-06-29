@@ -30,6 +30,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-color: white;
   width: 500px;
   border-radius: 12px;
@@ -45,6 +47,8 @@
   display: flex;
   height: 700px;
   background-color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 500px;
   border-radius: 12px;
   -webkit-box-pack: center;
@@ -71,5 +75,7 @@
   width: 500px;
   border-radius: 12px;
   color: black;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=upcomming.css.map */

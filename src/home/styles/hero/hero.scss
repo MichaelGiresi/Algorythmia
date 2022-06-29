@@ -4,6 +4,9 @@
     margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    width: 100%;
 
 
 }
@@ -17,6 +20,10 @@
 .title {
     color: #c3c3c3;
     font-size: 100px;
+    // width: 1200px;
+    // height: 200px;
+    // background-image: url(../../../assets/AlgorythmiaLogotypeGif.gif);
+    background-repeat: repeat;
 }
 
 .phrase {
@@ -40,10 +47,17 @@
 
 .container1-image {
     display: flex;
+    // background-image: url(../../../assets/Wethreeheads01.jpeg);
+    object-fit: cover;
+    // height: 515px;
+    // width: 515px;
+    width: 100%;
+    background-repeat: stretch;
     justify-content: center;
     align-items: center;
     // background-color: blue;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     height: 90%;
 }
 
@@ -81,8 +95,12 @@
     justify-content: center;
     align-items: center;
     // background-color: blue;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
     height: 90%;
+    object-fit: cover;
+    width: 100%;
+
 }
 
 .container2-product-price-container {

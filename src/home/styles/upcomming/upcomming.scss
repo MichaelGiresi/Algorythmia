@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     height: 700px;
+    object-fit: cover;
     background-color: white;
     width: 500px;
     border-radius: 12px;
@@ -34,7 +35,9 @@
     display: flex;
     height: 700px;
     background-color: white;
+    object-fit: cover;
     width: 500px;
+
     border-radius: 12px;
     justify-content: center;
     align-items: center;
@@ -50,4 +53,5 @@
     width: 500px;
     border-radius: 12px;
     color: black;
+    object-fit: cover;
 }

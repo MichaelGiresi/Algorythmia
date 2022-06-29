@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+
 }
 
 code {
@@ -19,23 +21,37 @@ code {
 
 
 .about-container {
-  display: none; 
+  display: flex; 
   flex-direction:column;
   align-items: center;
   color: white; 
   position: absolute;
   background-color: black; 
   width: 100%; 
-  opacity: 0.8; 
+  /* opacity: 0.8;  */
   height: 100vh;
-  
-  
+  /* transition: opacity 0.3s ease-in-out */
 }
 
-.about-active {
+/* .about-container.fade {
   display: flex;
-  animation: fadeIn 1s;
-  
+  opacity:.8;
+  transition: opacity 0.3s ease-in-out
+} */
+
+#about-page {
+  opacity: 0; 
+  visibility: hidden;
+  /* display: none; */
+  transition: visibility 0.3s, opacity 0.3s ease-in-out; 
+}
+
+
+#about-page.show {
+  /* display: flex; */
+  visibility: visible;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 
@@ -49,25 +65,7 @@ code {
 
 
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  
-  to {
-    opacity: 0.8;
-  }
-}
 
-@keyframes fadeOut {
-  from {
-    opacity: 0.8;
-  }
-  
-  to {
-    opacity: 0;
-  }
-}
 
 .about-info-container {
   width: 70%;
@@ -89,25 +87,49 @@ code {
   
 }
 
-
-
-.cart-container {
-  display: none;
+#cartId {
+  position: absolute;
   width: 500px;
   height: 100vh;
   background-color: black;
-  position: absolute;
-  /* animation: move 2s; */
+  /* display: none; */
+  visibility: hidden;
+  right: -500px;
+  transition-duration: 1s;
+  top: 0px;
+  /* width: 0px; */
+
+  transition: visibility 0.3s, right 0.3s ease-in-out;
+
+}
+
+#cartId.open {
+  /* display: flex; */
+  /* transition-duration: 2s; */
+  visibility: visible;
+  width: 500px;
+  height: 100vh;
+  top: 0px;
   right: 0px;
+  border-left:  3px solid #c3c3c3;
+}
+
+.cart-container {
+  /* display: none; */
+  
+
+  /* position: absolute; */
+  /* animation: move 2s; */
+  /* right: 0px; */
   /* align-items: center; */
 }
 
-.cart-active {
+/* .cart-active {
   display: flex;
   animation: move 1s;
-  /* justify-content: center; */
+  justify-content: center;
   flex-direction: column;
-}
+} */
 
 .cart-exit {
   height: 30px;

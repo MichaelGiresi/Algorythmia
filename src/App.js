@@ -14,59 +14,44 @@ import {useState, useEffect} from 'react'
 
 
 
-
 function App() {
-  const [about, setAbout] = useState(true)
-  const [cart, setCart] = useState(true)
+  const [about, setAbout] = useState(false)
+  const [cart, setCart] = useState(false)
   const [cartCount, setCartCount] = useState(1)
   
 
   const aboutPage = () => {
-
-    // const aboutDisplay = document.getElementById('about')
     const aboutPage = document.getElementById('about-page')
 
     if(about) {
       setAbout(false)
+      aboutPage.classList.toggle('show') 
+      console.log(about)
     } else {
       setAbout(true)
-    }
-
-
-    if(about) {
-      aboutPage.classList.add('about-active')
-    } else {
-      aboutPage.classList.remove('about-active')
+      aboutPage.classList.toggle('show') 
+      console.log(about)
     }
 
   }
+    // The parent div for the cart has an ID of cartId, and has a classname of cart-container
 
+    // 1. Toggling another classlist to handle display none/flex
+    // 2. Transition using opacity instead of right.
   const Cart = () => {
     const cartId = document.getElementById('cartId')
     const cartButton = document.getElementById('cart-button')
-    
-    
+
     if(cart) {
-      setCart(false)
+      setCart(false) 
+        cartId.classList.toggle('open')
+        console.log(cart)
     } else {
-      setCart(true)
+      setCart(true) 
+      cartId.classList.toggle('open')
+      console.log(cart)
     }
-    
-    if(cart) {
-      cartId.classList.add('cart-active')
-      console.log("true")
-    } else {
-      cartId.classList.remove('cart-active')
-      console.log("False")
-    }    
-
-    cartButton.addEventListener('click', () => {
-      cartId.classList.remove('cart-active'); 
-      setCart(true)})
-    
   }
-
-
 
   return (
     <Router>
@@ -83,7 +68,7 @@ function App() {
     // Cart Drawer
     <div id="cartId" className="cart-container" > 
       <div className="cart-button-container">
-        <button id="cart-button" className="cart-exit">X</button>
+        <button id="cart-button" className="cart-exit" onClick={() => {Cart()}}>X</button>
       </div>
       <div className="cart-product-info-container">
         <div className="cart-product-image">1</div>

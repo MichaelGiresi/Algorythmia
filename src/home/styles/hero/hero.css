@@ -8,6 +8,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
 }
 
 .title-container {
@@ -25,6 +26,7 @@
 .title {
   color: #c3c3c3;
   font-size: 100px;
+  background-repeat: repeat;
 }
 
 .phrase {
@@ -53,13 +55,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  background-repeat: stretch;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   height: 90%;
 }
 
@@ -106,8 +113,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .container2-product-price-container {
