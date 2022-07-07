@@ -1,13 +1,123 @@
+html {
+  background-color: black;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
+}
+
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  /* max-width: 1600px; */
+  /* height: 100%;
+  width: 100%; */
+
 }
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.about-container {
+  display: flex; 
+  flex-direction:column;
+  align-items: center;
+  color: white; 
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:0;
+  max-width: 1600px;
+  
+  margin: auto;
+  background-color: black; 
+  /* width: 100%;  */
+  /* opacity: 0.8;  */
+  height: 100vh;
+  /* transition: opacity 0.3s ease-in-out */
+}
+
+/* .about-container.fade {
+  display: flex;
+  opacity:.8;
+  transition: opacity 0.3s ease-in-out
+} */
+
+#about-page {
+  opacity: 0; 
+  visibility: hidden;
+  /* display: none; */
+  transition: visibility 0.3s, opacity 0.3s ease-in-out; 
+}
+
+
+#about-page.show {
+  /* display: flex; */
+  visibility: visible;
+  opacity: 0.8;
+  cursor: pointer;
+  /* position: absolute; */
+  /* max-width: 1600px; */
+  /* left: 0;
+  right: 20px;
+  top: 0;
+  bottom:0; */
+  /* margin: auto; */
+}
+
+
+
+@keyframes move {
+  from {right: -500px}
+  to {right: 0px}
+}
+
+
+
+
+
+
+
+.about-info-container {
+  width: 70%;
+  margin-top: 0px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.about-info-container h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  
+}
+
+.about-info-container h3 {
+  margin-bottom: 0;
+  
+}
+

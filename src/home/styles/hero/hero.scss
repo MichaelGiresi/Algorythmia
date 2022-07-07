@@ -1,0 +1,291 @@
+$a: calc(100% - 5%);
+
+.hero {
+    max-width: 1600px;
+    // background-color: green;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    width: 100%;
+
+
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 15px auto 0 auto;
+    width: 95%;
+
+    @media (min-width: 1600px) {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+}
+
+.title {
+    color: #c3c3c3;
+    // font-size: 100px;
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // height: 200px;
+    // background-image: url(../../../assets/AlgorythmiaLogotypeGif.gif);
+    background-repeat: repeat;
+    @media (min-width: 768px) {
+        width: 55%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    @media (min-width: 1600px) {
+        width: 65%;
+    }
+}
+
+.phrase {
+    // position: absolute;
+    color: red;
+    font-size: 22px;
+    display: none;
+    letter-spacing: 3px;
+    font-weight: 900;
+    opacity: .7;
+    
+    @media (min-width: 768px) {
+        display: flex
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 30px;
+    }
+
+    @media (min-width: 1600px) {
+        font-size: 40px;
+    }
+    
+}
+
+.featured-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto 0 auto;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+    @media (min-width: 1600px) {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+}
+
+.container1 {
+    background-color: white;
+    // height: 515px;
+    // width: 515px;
+    // width: 288px;    
+    width: 100%;
+    // height: $a;
+    border-radius: 12px;
+    color: black;
+    margin-bottom: 15px;
+
+    @media (min-width: 768px) {
+        width: 33%;
+        margin-bottom: 0px;
+    }
+    
+}
+// .container1:after {
+//     padding-bottom: 100%;
+//     // display: block;
+// }
+
+
+.container1-image {
+    display: flex;
+    // background-image: url(../../../assets/Wethreeheads01.jpeg);
+    // object-fit: cover;
+    // height: 515px;
+    // width: 515px;
+    width: 100%;
+    // background-repeat: stretch;
+    justify-content: center;
+    align-items: center;
+    // background-color: blue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    // height: 90%;
+}
+
+.container1-product-price-container {
+    // background-color: orange;
+    height: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    @media (min-width:425px) {
+        height: 50px;
+    }
+}
+
+.container1-product-title {
+    margin-left: 3%;
+}
+
+.container1-price {
+    margin-right: 3%;
+}
+
+
+.container2 {
+    background-color: white;
+    // height: 515px;
+    // width: 515px;
+    // height: 288px;
+    width: 100%;
+    border-radius: 12px;
+    color: black;
+    @media (min-width: 768px) {
+        width: 33%;
+    }
+}
+
+.container2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: blue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 90%;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.container2-product-price-container {
+    // background-color: orange;
+    height: 10%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    @media (min-width:425px) {
+        height: 50px;
+    }
+}
+
+.container2-product-title {
+    margin-left: 3%;
+}
+
+.container2-price {
+    margin-right: 3%;
+}
+
+.info {
+    // background-color: white;
+    // height: 515px;
+    // width: 515px;
+    width: 95%;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    @media (min-width: 768px) {
+        width: 30%;
+        // height: 100%;
+        
+    }
+}
+
+.info p {
+    line-height: 1.7;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        text-align: left;
+        margin-block-start: 10px;
+        font-size: 15px;
+    }
+    @media (min-width: 900px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 23px;
+    }
+}
+
+.info h6 {
+    // display: none;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0;
+    margin-block-end: 0;
+    @media (min-width: 768px) {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    @media (min-width: 830px) {
+        margin-block-start: 0;
+    }
+}
+
+.video {
+    width: 95%;
+    margin: 0 auto 0 auto;
+    border-radius: 12px;
+
+    @media (min-width: 1600px) {
+        width: 100%;
+    }
+}
+
+.iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+
+    @media (min-width: 768px) {
+        height: 500px;
+    }
+    @media (min-width: 1000px) {
+        height: 600px;
+    }
+    @media (min-width:1200px) {
+        height: 700px;
+    }
+    @media (min-width: 1440px) {
+        height: 800px;
+    }
+    @media (min-width: 1600px) {
+        height: 900px;
+    }
+}
